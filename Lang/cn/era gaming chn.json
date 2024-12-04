@@ -1,5 +1,5 @@
 {
   "egb": {
-    "info": "\n\n\n\n\n\n{~text align=center}{~>arch_info.def}{~}\n\n                                            @egbVersion@\n\n                                                                              {~text align=right}Archer30{~}          \n{~text align=right}ERA项目组{~}          \n{~text align=right}WoG中文站{~}          \n"
+    "info": "\n\n\n\n\n\n{~text align=center}{~>arch_info.def}{~}\n\n                                                      @egbVersion@\n\n\n                                                                              {~text align=right}Archer30{~}          \n{~text align=right}ERA项目组{~}          \n"
   }
 }
