@@ -1,7 +1,7 @@
 {
 	"caption": {
 		"Cn_Simp": "ERA整合版汉化",
-		"en_US": "ERA Gaming Chn",
+		"en_US": "ERA Chinese localization",
 		"ru_RU": "",
 		"ua_UA": ""
 	},
@@ -19,7 +19,7 @@
 			"ua_UA": ""
 		}
 	},
-	"author": "Archer30@WoG中文站",
+	"author": "Archer30",
 	"homepage": "https://www.h3wog.com/thread-76170-1-1.html",
 	"icon": {
 		"file": "era_gaming_chn.ico",
