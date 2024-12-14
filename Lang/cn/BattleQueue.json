@@ -1,8 +1,0 @@
-{
-    "BattleQueue" :
-    {
-        "keep" : "主箭塔",
-        "top_turret" : "顶箭塔", 
-        "bottom_turret" :"底箭塔"
-    }
-}
