@@ -1,0 +1,59 @@
+{
+    "srm": {
+        "main": {
+						"can_learn":	"{魔法研究}\n\n有新的魔法可供研究 (英雄可以学习)",
+						"cant_learn":	"{魔法研究}\n\n有新的魔法可供研究 (英雄无法学习)",
+
+						"can_research_for_pay":	"这个魔法可以在支付一定的费用后替换",
+						"or_complete_it_for_free":	"你可以通过一定的价格换成别的魔法，或者免费终止魔法研究",
+						"two_rsrchs_frbdn":	"你无法同时进行两项研究",
+						"this_turn_was_research":	"本回合已经进行过研究了",
+						
+						"available":	"可以研究",
+						"no_resources":	"资源不足",
+						
+						"can_buy":		"为了施放魔法，你的英雄必须先花@cost@个金币买一本魔法书。你想买一本吗？",
+						"cant_buy":		"为了施放魔法，你的英雄必须先花@cost@个金币买一本魔法书。遗憾的是，你现在手头有点紧。",
+						},
+
+				"hints":	{
+						"do_research":	"@spellName@ (点击后开始研究)",
+						"is_researched":	"@spellName@ (永久)",
+						"was_researching":	"@spellName@ (本回合已经进行过研究了)",
+						"another_researh":	"@spellName@ (另一项研究正在进行中)",
+						"is_researching":	"研究正在进行中 (当前魔法为@spellName@)",
+						"no_resources":	"@spellName@ (资源不足以研究)",
+
+						"pay_and_start":	"支付并进行研究",
+						"pay_and_continue":	"支付并进行研究",
+						"complete_for_free":	"完成研究 (免费)",
+						"cancel":	"取消",
+
+						"leave_mg":	"离开魔法行会",
+						},
+
+				"scroll_texts":		{
+						"cant_change":		"{@spellName@}\n\n你无法替换这个魔法。",
+						"can_change":		"{@spellName@}\n\n这个魔法可以在支付一定的费用后进行替换。当前可以学习。",
+						"rolled_scroll":		"{魔法研究}\n\n这个魔法可以在支付一定的费用后进行替换。当前无法学习。你可以完成研究并让这个魔法永远留在这个位置。\n\n当前的魔法为",
+						},
+
+				"spell_choice":	{
+						"head":		"选择一个魔法",
+						"head_one_spell":	"新魔法",
+
+						"accept_hint":		"完成研究",
+						"decline_hint":		"继续研究",
+						},
+	
+				"help":	{
+						"head":		"{魔法研究机制简介\n\n}",
+						"body":		"{~text align=left}现在可以在魔法行会界面进行魔法研究，替换各个位置的魔法。\n\n研究的费用为2倍魔法等级的{~>SMALRES.def:1}{~>SMALRES.def:3}{~>SMALRES.def:4}{~>SMALRES.def:5}以及1000个{~>SMALRES.def:6}\n研究在每座城内每天只能进行一次 (与建造次数独立)。\n\n研究时，旧的魔法会从所在位置移除，并随机出现两种新魔法 (5级魔法只有一种选择)。同一个位置的魔法研究可以多次进行，但在研究完成之前，英雄无法学习这个位置的新魔法。新魔法出现的概率与城镇类型有关。旧的魔法 (原先在城镇的魔法或者研究过程中未被选中的魔法) 在新魔法确认前，不会再次出现。\n你可以在任意时候完成研究。研究完成后，你的英雄便可以学习这个新魔法，但这个位置的魔法将无法再次研究。\n城镇必备的魔法无法被替换。每次只能进行一个位置的魔法研究。在进行下一个位置的魔法研究前，必须先完成当前位置的魔法研究。}",
+						"ask":		"\n\n你想查看这个魔法行会可供研究的魔法吗？\n\n(你也可以通过右击{~>icm005.def:0}按钮查看列表)\n\n",
+						"info":		"\n\n点击{~>icm005.def:0}以便获得更多信息",
+						"endl":		"\n",
+						"levelSpellsHead":		"{你可以研究以下魔法}\n",
+						"levelSpells":		"{等级@guild@：}\n",
+						}
+			}
+}

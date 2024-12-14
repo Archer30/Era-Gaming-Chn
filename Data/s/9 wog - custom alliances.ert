@@ -1,0 +1,28 @@
+#	Text resource for "Script69.erm" document		
+169000	{默认}	String type = <!!S>	09.10.2003
+169001	{默认}结盟
+
+所有的玩家根据地图设定结盟。	String type = <!!S>	09.10.2003
+169002	{设定}	String type = <!!S>	09.10.2003
+169003	{设定}结盟
+
+你可以指定任何颜色玩家的结盟方式。	String type = <!!S>	09.10.2003
+169004	你想使用默认结盟方式还是设定结盟方式？	String type = <!!Q>	09.10.2003
+169005	{结盟%X1}	String type = <!!S>	09.10.2003
+169006	红色	String type = <!!S>	09.10.2003
+169007	蓝色	String type = <!!S>	09.10.2003
+169008	褐色	String type = <!!S>	09.10.2003
+169009	绿色	String type = <!!S>	09.10.2003
+169010	橙色	String type = <!!S>	09.10.2003
+169011	紫色	String type = <!!S>	09.10.2003
+169012	青色	String type = <!!S>	09.10.2003
+169013	粉色	String type = <!!S>	09.10.2003
+169014	电脑	String type = <!!S>	09.10.2003
+169015	玩家	String type = <!!S>	09.10.2003
+169016	设定结盟数量：	String type = <!!S>	09.10.2003
+169017	
+
+对吗？	String type = <!!S>	09.10.2003
+169018	设定结盟的玩家：结盟%X16	String type = <!!S>	09.10.2003
+169019	不结盟	String type = <!!S>	09.10.2003
+169020	设定%Y-3个结盟	String type = <!!S>	09.10.2003

@@ -1,0 +1,71 @@
+{
+    "choose_attack_type": {
+        "autobattle_question": "启用自动战斗吗？",
+        "hint": {
+            "none": "切换为其它模式",
+            "melee": "肉搏",
+            "shoot": "远程",
+            "cast": "施放魔法",
+            "moove": "移动",
+            "return": "攻击并返回",
+            "no_return": "攻击不返回",
+        },
+        "rmc": {
+            "none": "{其它模式}\n\n这个按钮可以让你在部队的多种行动模式之间切换。",
+            "melee": "{肉搏}\n\n当前行动模式 - 肉搏",
+            "shoot": "{远程}\n\n当前行动模式 - 远程",
+            "cast": "{施放魔法}\n\n当前行动模式 - 施放魔法",
+            "moove": "{移动}\n\n生物会移动到目标位置而不复活目标位置上的其它生物",
+            "return": "{攻击并返回}\n\n生物会在攻击后返回原来的位置",
+            "no_return": "{攻击不返回}\n\n生物会在攻击后停留在敌人身边",
+        }
+    },
+    "gem_plugin": {
+        "combat_dlg": {
+            "0":   "行动:",
+            "1":   "反击:",
+            "2":   "弹药:",
+            "3":   "施法:",
+            "4":   "剩余HP:",
+            "5":   "已死亡:",
+            "active": "未动",
+            "creature_info": {
+                "for_free": "(免费)",
+                "npc_hint": "打开指挥官界面",
+                "spell_list_hint": "打开受身魔法对话框",
+                "stack_exp_hint": "打开部队经验值对话框"
+            },
+            "def": "防御",
+            "done": "已动",
+            "wait": "等待"
+        },
+        "combat_hints": {
+			"text": {
+                "button_name": "生命值栏",
+                "color_health": "当前的生命值颜色",
+                "color_loss": "损失的生命值颜色",
+                "default": "还原默认设置",
+                "enable": "启用额外的生命值信息",
+                "handlers":"自定义",
+                "height": "标签高度",
+                "held": "仅按下热键时显示",
+                "hotkey": "设置热键",
+                "input": "请输入%d - %d之间的数字",
+                "press_any": "请按下任意按键",
+                "rmc_hint": "右键信息",
+                "saturation": "颜色饱和度",
+                "set_hotkey": "改变按下的热键",
+                "toggable": "设置切换方式",
+                "wrong_hotkey": "无法使用这个热键",                
+            }
+        },
+        "mithril_display": {
+            "popup_hint":"你所拥有的秘银数量"
+        },
+		"user_notification":{
+			"no_dat_settings":"{玩家请注意！}\n\n游戏未检测到在WoG.ini文件中指定的WoG选项设置！这意味着游戏将使用“zsetup01.txt”文件中的默认设置。\n要保存你的设置的话，请打开WoG选项菜单并点击右下角的“保存”按钮。\n\n如果你点击“取消”，则此消息将不再显示。",
+            "open_external_file":"{即将使用外部程序}\n\n你真的要打开更新日志吗？\n\"{%s}\"?\n\n注意：这会调用你的默认程序。",
+			"open_web_page": "{即将使用网页浏览器}\n\n你真的要打开当前ERA启动器版的发布页吗？\n\"{%s}\"?\n\n注意：这将会调用你的默认网页浏览器。"
+		}
+    }
+}

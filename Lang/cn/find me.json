@@ -1,0 +1,12 @@
+{
+  "findme":  {
+    "noHero":  "已激活“英雄访问一次的物体”的搜素功能，这个功能只有在选择英雄后才能激活。",
+    "doneLoop": "循环结束！",
+    "totalArts": "地图上一共有 (不同等级的) @art@件宝物。",
+    "totalObjs": "地图上一共有@obj@个选中的物体。",
+    "customSearch": "自定义搜索",
+    "enterType":  "请输入你要搜索的物体的类型。",
+    "enterSubtype": "请输入你要搜索的物体的子类型。",
+    "selectFaction":  "请选择城镇类型：",
+  }
+}
