@@ -1,6 +1,0 @@
-ZVSE2
-; Author:   Archer30
-; Engine:   ERM 2.0+
-; Requires: ERA 3.3+, Era Erm Framework
-
-!?FU(OnAfterErmInited);!!SN:T^egb.info^/?s^arch_asmInfo^/^egbVersion^/^%T(gem_plugin.main_menu.era_version.inGame)^;!?FU77003&i^key^=118;!!SN:F^GetGameState^/?(mainDialogs[2]:y);!!FU|(mainDialogs[1])=(DLG_BATTLE)/i^arch_asmInfoShown^:E;!!VRx2:S(TRUE);!!VRi^arch_asmInfoShown^:S(TRUE);!!IF:M^%s(arch_asmInfo)^;!!VRi^arch_asmInfoShown^:S(FALSE);
