@@ -1,0 +1,51 @@
+#	文字资源"Script31.erm"文件		
+131000		String type = <!#M>	7/15/03
+131001	卷轴
+	String type = <!!S>	7/15/03
+131002	有生命的卷轴
+	String type = <!!S>	7/15/03
+131003	在这个宝箱里你找到了
+一个装着{%Y5个金币}的钱包
+和{%Z1}的%Z2。
+
+你想留下%Z2，还是摧毁它并获得它的魔法能量？	String type = <!!Q>	7/15/03
+131004	你摧毁了%Z1%Z2并获得了%Y3魔法值。	String type = <!!Q>	7/15/03
+131005	初级	String type = <!!S>	7/15/03
+131006	中级	String type = <!!S>	7/15/03
+131007		String type = <!!S>	7/15/03
+131008		String type = <!!S>	7/15/03
+131009	在宝箱里边你发现了两本知识大全。
+
+一本是“%Z1进阶”
+另一本则是“%Z2手册”。
+
+鱼和熊掌不可兼得。你只能选择研读一本，剩下的那一本会交给你的部下保管。
+
+(你已经掌握了%Z6%Z1和%Z7%Z2。)	String type = <!!Q>	7/15/03
+131010		String type = <!!S>	7/15/03
+131011		String type = <!!S>	7/15/03
+131012		String type = <!!Q>	7/15/03
+131013		String type = <!!S>	7/15/03
+131014		String type = <!!S>	7/15/03
+131015		String type = <!!S>	7/15/03
+131016		String type = <!!S>	7/15/03
+131017		String type = <!!Q>	7/15/03
+131018		String type = <!!Q>	7/15/03
+131019		String type = <!!Q>	7/15/03
+131020		String type = <!!Q>	7/15/03
+131021		String type = <!!Q>	7/15/03
+131022		String type = <!!Q>	7/15/03
+131023		String type = <!!Q>	7/15/03
+131024	在刻苦研读之后，%Z4完成了%Z3知识大全的学习，掌握了书中的所有内容！	String type = <!!Q>	7/15/03
+131025	宝箱涌出的魔力
+让你控制了一座
+%Z1！	String type = <!!Q>	7/15/03
+131026		String type = <!!S>	7/15/03
+131027		String type = <!!S>	7/15/03
+131028		String type = <!!S>	7/15/03
+131029		String type = <!!S>	7/15/03
+131030		String type = <!!S>	7/15/03
+131031		String type = <!!S>	7/15/03
+131032		String type = <!!S>	7/15/03
+131033		String type = <!!S>	7/15/03
+131034	{错误：} 没有3级冒险魔法	String type = <!!M>	7/15/03

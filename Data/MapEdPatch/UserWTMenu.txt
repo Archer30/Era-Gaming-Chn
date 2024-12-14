@@ -1,0 +1,10 @@
+Title	ShortCut	Description	Command	Params	Directory(same as in command by default)
+ 
+Here are the tools that
+ appear in "WoG Tools" menu.
+
+-			-
+英雄无敌3 ERA	F4	运行游戏	h3era HD.exe
+ERM帮助	F5	打开ERM帮助	Help\ERM-Help_chn.chm
+ERM Scripter	F6	打开ERM Scripter	Tools\Erm Editor\erm editor.exe
+Sublime Text	F7	打开Sublime Text	Tools\Erm_Editor_Sublime\sublime_text.exe

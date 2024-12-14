@@ -1,0 +1,9 @@
+{
+  "eqs": {
+    "this_day_savegame_name": "@day@",
+    "end_turn_autosave_name": "@day@_End",
+    "quicksave_name":         "Quick",
+    "saved_msg":              "已保存！",
+    "quicksaved_msg":         "已快速保存！"
+  }
+}

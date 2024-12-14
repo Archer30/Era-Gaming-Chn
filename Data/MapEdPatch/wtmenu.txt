@@ -1,0 +1,13 @@
+Title	ShortCut	Description	Command	Params	Directory(same as in command by default)
+ 
+Here are predefined items that
+ appear in "WoG Tools" menu.
+
+备份地图		在保存地图前创建.bak地图备份文件	-BackupMaps	
+启动时窗口最大化		地图编辑器启动时最大化窗口	-MaxOnStart
+物体可放置在任意位置		可以将物体放置在任意地形上。如果放置的位置不正确，指针样式仍然会改变，但仅作提醒功能。	-ObjPlaceAnywhere
+高级属性...	Space	显示选中的物体的高级属性	-AdvancedProps
+-			-
+脚本自动刷新		当脚本更改时自动刷新所有绑定的事件	-BindAutorefresh
+打开所有脚本		用ERM Scripter打开所有绑定的脚本	-OpenAllScripts
+解绑所有事件		解绑所有事件。推荐在发布地图正式版本的时候解绑事件。	-UnbindAll

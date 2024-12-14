@@ -1,0 +1,19 @@
+{
+    "era": {
+      "buttons": {
+        "cancel": "取消"
+      },
+
+      "debug": {
+        "game_saving_exception_warning": "{~F01111}！游戏在保存的过程中中断了！游戏数据很可能已经损坏。如果你是普通玩家的话，请重启游戏并尝试读取更早以前的存档。你也可以尝试再次进行保存。“DumpSavegameSections”选项已被激活，会在每次保存游戏时同时保存更多的调试信息，帮助ERA的开发者调查这个bug。{~}",
+        "debug_dump_confirmation": "游戏出错了，要将调试信息保存在“游戏根目录\\Debug”中吗？"
+      },
+
+      "global_scripts_vs_map_scripts_warning": "{是否停止执行全局脚本？}\n\n这个地图包含内置的ERM脚本。你要停止执行全局脚本吗 (如果地图设计上不兼容全局脚本，强行使用后可能产生错误)？\n\n注意：在绝大多数情况下，出现这个提示说明\n{~red}当前的地图和ERA 3不兼容{~}。\n请尝试更换一张地图后再进行游戏。",
+      "no_memory_for_erm_optimization": "抱歉，编译后的ERM脚本大小超过了@limit@MB的限制。ERM优化失败。ERM已被禁用。",
+      "select_ip_address": "选择IP地址",
+      "game_crash_message": "嘭！游戏因为未知的原因崩溃了。\n\n所有相关的信息已在“游戏根目录\\@debug_dir@”中生成。\n\n请把Debug文件夹打包后发送给Archer30，并描述游戏崩溃时的具体情况。\n\n联系方式：\n主页：https://www.h3wog.com/thread-76170-1-1.html\nQQ群：1群 945878900    2群 636624102",
+      "incompatible_savegame_version_warning": "这个存档和当前的ERA版本不兼容。一些数据无法加载。请重新开始游戏。"
+    }
+  }
+  
