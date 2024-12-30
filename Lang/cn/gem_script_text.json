@@ -36,9 +36,11 @@
 
           "time1": "{时间:}",
           "time2": "{电量:}",
-          "wip":"帮助", //制作中
-
           "battlesave": "BATTLE!",
+          "wip":"帮助",
+
+          "keymastersTent0": "(首领营帐未访问)",
+			    "keymastersTent1": "(首领营帐已访问)"
         },
 
         "hero": {
