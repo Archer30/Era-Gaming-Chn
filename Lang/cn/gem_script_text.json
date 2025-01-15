@@ -1,152 +1,127 @@
 {
-    "gem": {
-        "endl":"\n",
-        "period": "。",
-
-        "map": {
-          "route_1": "@hero_name@无法到达这里",
-          "route_2": "@hero_name@到这里需要移动点数: {@path_lenght@}  (本回合内无法到达)",
-          "route_2rmb": "@hero_name@到这里需要移动点数: {@path_lenght@} \n\n本回合内无法到达",
-          "route_3": "@hero_name@到这里需要移动点数: {@path_lenght@}  (剩余: {@hero_movepoints@})",
-          "route_3rmb": "@hero_name@到这里需要移动点数: {@path_lenght@} \n\n剩余: {@hero_movepoints@}",
-          "mp_left": "(移动点数: ",
-
-          "battlelist1": "快速战斗选项",
-          "battlelist2": "{~>m_manualF.def}  普通战斗",
-          "battlelist3": "{~>m_automf.def}  快速战斗",
-          "battlelist4": "{~>m_autowm.def}  快速战斗 (不使用魔法)",
-
-          "battle1": "普通战斗模式",
-          "battle2": "快速战斗模式",
-          "battle3": "快速战斗模式 (不使用魔法)",
-          "battle4": "战前选择模式",
-
-          "button1hint":  "普通战斗模式",
-          "button2hint":	"快速战斗模式",
-          "button3hint":	"快速战斗模式 (不使用魔法)",
-          "button4hint":	"战前选择模式",
-          "button5hint":	"脚本提示信息设置",
-          "button5click":	"{噢，这是一个新的按钮...}\n\n不过你没有启用{WoG脚本}mod...",
-          "button6hint":	"秘银显示",
-          "button6click":	"{噢，这是一个新的按钮...}\n\n不过你没有启用{秘银显示}选项。",
-          "button7hint":	"战斗模式指示器",
-
-          "herotake": "哈哈，你想得美 :P",
-          "herokill": "你真的要{解雇}{@hero_name@}吗？",
-
-          "time1": "{时间:}",
-          "time2": "{电量:}",
-          "battlesave": "BATTLE!",
-          "wip":"帮助",
-
-          "keymastersTent0": "(首领营帐未访问)",
-			    "keymastersTent1": "(首领营帐已访问)"
-        },
-
-        "hero": {
-          "backpack": "点击后查看背包",
-          "questlog": "点击后查看冒险日志",
-          "assemble": "你得到了@art@的所有配件，你想把它们组合起来吗？"
-
-        },
-
-        "battle": {
-          "AllwaitDescr": "{全队等待}\n\n本回合内让所有己方单位进入等待状态",
-          "AlldefDescr": "{全队防御}\n\n本回合内让所有己方单位进入防御状态",
-          "Confirm1":"{注意}\n\n点击这个按钮后，你将会让所有己方单位本回合内进入{\"等待\"}状态。\n\n你真的要在多人游戏中这么做吗？",
-          "Confirm2":"{注意}\n\n点击这个按钮后，你将会让所有己方单位本回合内进入{\"防御\"}状态。\n\n你真的要在多人游戏中这么做吗？",
-          "surrendGold": "{投降}\n\n你有{~>SMALRES.def:6}{@gold@}可用于支付投降费用。",
-          "surrendPrice": "\n\n投降的费用为{~>SMALRES.def:6}{@price@}。",
-          "surrendWait": "\n\n只有在你的回合才可以查看投降的费用。",
-          "armyDecrease0": "防守方的指挥官遣散了攻击方的军队：",
-          "armyDecrease1": "攻击方的指挥官遣散了防守方的军队：",
-          "astralCustomText": "@monNum@ @monName@，"
-        },
-
-        "settings": {
-          "foolDay":"又是一年一度的节日...打算找点刺激吗？",
-          "out":"{数值超过了允许范围！}\n\n指定一个1到254之间的数字\n\n(超过128条可禁用信息)",
-          "value":"指定一个1到254之间的数字\n\n(超过128条可禁用信息)",
-          "realy":"你确定吗？",
-          "line0":"{~>RESOURCE.def:5} 欢迎使用GEM设置 {~>RESOURCE.def:5}\n\n在选项上右击可查看详细信息",
-          "opt+":"\n\n在多人游戏中无法使用！！！",
-
-          "line1":"更精细的全体行动模式",
-          "opt1":"{更精细的全体行动模式}\n\n[作者：daemon_n] (gem_settings)\n\n这个选项启用后，在按下{ALT}{+}{W}或者{ALT}{+}{D/空格}进行全队等待或防御时，会在下一个敌方单位行动后恢复控制，而不会等到下一个回合。",
-          "opt1+": "\n\n注意！\n在“BattleSave”插件启用时，战前存档会由插件执行，并且这个选项会被自动禁用。",
-
-          "line2": "新界面按钮",
-          "opt2":"{~>m_manualF.def} {~>m_automf.def} {新界面按钮} {~>m_autowm.def} {~>m_choiceB.def}\n\n[作者：daemon_n, totkotoriy]\n\n小地图左边的按钮\n\n键盘上的“W”键也可以用于切换不同的战斗模式。",
-
-          "line3": "战场己方英雄界面",
-          "opt3":"{战场己方英雄界面}\n\n[作者：igrik] (脚本79 - wog)\n\n在战斗中可以查看{己方}的英雄界面。\n右击己方英雄战场形象可激活这个功能。",
-
-          "line6":"无城生活", //NOT_USED
-          "opt6":"{无城生活}\n\n[作者：？？？] (gem_settings)\n\n这个脚本允许玩家在失去所有城镇后不会被赶出地图。",
-
-          "line5":"城镇魔法研究", 
-          "opt5":"{城镇魔法研究}\n\n[作者：daemon_n] (gem_spell_research)\n\n允许你在城镇的魔法行会进行魔法研究\n\n更改选项后必须重启地图才会生效。",
-
-          "line4":"战场敌方英雄界面",
-          "opt4":"{战场敌方英雄界面}\n\n[作者：igrik] (脚本79 - wog)\n\n在战斗中可以查看{敌方}的英雄界面。\n右击敌方英雄战场形象可激活这个功能。",
-
-          "line7":"{~>zmithr.def} 你{~r}没有{~}秘银 {~>zmithr.def mirror}",
-          "line7+":"{~>zmithr.def}你有{~LightGreen}@mithril@{~}秘银{~>zmithr.def mirror}  ",
-
-          "opt7":"NOT_USED",
-          "line8":"NOT_USED",
-          "opt8":"NOT_USED",
-          "line9":"NOT_USED",
-          "opt9":"NOT_USED",
-
-          "hint0":"欢迎使用GEM设置",
-          "hint1": "更精细的全体等待/防御控制",
-          "hint2": "小地图左边的按钮",
-          "hint3": "在战场上右击{己方}英雄可查看英雄界面",
-          "hint6": "在地图上没有城镇也不会失败", //NOT_USED
-          "hint5": "研究并替换魔法行会的魔法", 
-          "hint4": "在战场上右击{敌方}英雄可查看英雄界面",
-          "hint7": "你所拥有的秘银数量",
-          "hint8": "NOT_USED",
-          "hint9": "NOT_USED",
-          },
-
-        "town": {
-          "menurmb": "新功能菜单",
-          "emptyfield": "新功能菜单\n\n当前未加载包含新功能的mod",
-          "hintText": "新功能菜单",
-          },
-
-        "faq": {
-          "header12": "冒险地图界面快捷键：",
-          "header13": "战斗界面快捷键：",
-          "header14": "城镇界面快捷键：",
-          "header15": "英雄界面快捷键：",
-
-          "hk0":  "                      改变战斗模式", // W - on map
-          "hk1":  "打开GEM设置菜单", //~ - on map
-          "hk2":  "显示抵达此地当前英雄剩下的移动点数",  //alt+right-clicking  - on map
-          "hk3":  "右击传送门显示已发现的入口与出口", // ctrl+left-clicking - on map
-          "hk4":  "                                      直接结束战斗", // Q - in the battle
-          "hk5":  "                右击生物显示高级战场信息", // alt+right-clicking - in the battle
-          "hk6":  "让你的所有部队{等待}，直到下一回合",  //alt+W - in the battle
-          "hk7":  "让你的所有部队{防御}，直到下一回合", //alt+D/space- in the battle
-          "hk8":  "                      打开英雄交换界面", //E - in town
-          "hk9":  "打开新功能菜单",  // ~ - in town
-          "hk10": "点击英雄或生物直接升级生物",  // A +left-clicking - in town
-          "hk11": "右击带有战神旗帜的生物，将战神旗帜传给英雄",  // ctrl+right-clicking - in hero
-        },
-        
-        "wog": {
-          "disableMsg": "\n\n(点击[小地图左边的第5个按钮]，可禁用提示)",
-          "checkMithril": "\n\n(点击[小地图左边的第5个按钮]，可禁用提示)"
-        },
-        "hota": {
-          "manaVortexDesc": "魔力漩涡每周使一位英雄暂时拥有双倍的魔法值。",
-          "manaVortex0": "只有驻守或来访的英雄可以使用魔力漩涡。",
-          "manaVortex1": "你想使用魔力漩涡使@hero@的魔法值翻倍吗？",
-          "manaVortex2": "魔力漩涡本周已经被使用过了。",
-          "manaVortex3": "@hero@已经拥有足够的魔法值，无法使用魔力漩涡。 "
-        }
+  "gem": {
+    "battle": {
+      "AlldefDescr": "{全队防御}\n\n本回合内让所有己方单位进入防御状态",
+      "AllwaitDescr": "{全队等待}\n\n本回合内让所有己方单位进入等待状态",
+      "Confirm1": "{注意}\n\n点击这个按钮后，你将会让所有己方单位本回合内进入{\"等待\"}状态。\n\n你真的要在多人游戏中这么做吗？",
+      "Confirm2": "{注意}\n\n点击这个按钮后，你将会让所有己方单位本回合内进入{\"防御\"}状态。\n\n你真的要在多人游戏中这么做吗？",
+      "armyDecrease0": "防守方的指挥官遣散了攻击方的军队：",
+      "armyDecrease1": "攻击方的指挥官遣散了防守方的军队：",
+      "astralCustomText": "@monNum@ @monName@，",
+      "surrendGold": "{投降}\n\n你有{~>SMALRES.def:6}{@gold@}可用于支付投降费用。",
+      "surrendPrice": "\n\n投降的费用为{~>SMALRES.def:6}{@price@}。",
+      "surrendWait": "\n\n只有在你的回合才可以查看投降的费用。"
+    },
+    "endl": "\n",
+    "faq": {
+      "header12": "冒险地图界面快捷键：",
+      "header13": "战斗界面快捷键：",
+      "header14": "城镇界面快捷键：",
+      "header15": "英雄界面快捷键：",
+      "hk0": "                      改变战斗模式", // W - on map
+      "hk1": "打开GEM设置菜单", //~ - on map
+      "hk10": "点击英雄或生物直接升级生物", // A +left-clicking - in town
+      "hk11": "右击带有战神旗帜的生物，将战神旗帜传给英雄", // ctrl+right-clicking - in hero
+      "hk2": "显示抵达此地当前英雄剩下的移动点数", //alt+right-clicking  - on map
+      "hk3": "右击传送门显示已发现的入口与出口", // ctrl+left-clicking - on map
+      "hk4": "                                      直接结束战斗", // Q - in the battle
+      "hk5": "                右击生物显示高级战场信息", // alt+right-clicking - in the battle
+      "hk6": "让你的所有部队{等待}，直到下一回合", //alt+W - in the battle
+      "hk7": "让你的所有部队{防御}，直到下一回合", //alt+D/space- in the battle
+      "hk8": "                      打开英雄交换界面", //E - in town
+      "hk9": "打开新功能菜单" // ~ - in town
+    },
+    "hero": {
+      "assemble": "你得到了@art@的所有配件，你想把它们组合起来吗？",
+      "backpack": "点击后查看背包",
+      "questlog": "点击后查看冒险日志"
+    },
+    "hota": {
+      "manaVortex0": "只有驻守或来访的英雄可以使用魔力漩涡。",
+      "manaVortex1": "你想使用魔力漩涡使@hero@的魔法值翻倍吗？",
+      "manaVortex2": "魔力漩涡本周已经被使用过了。",
+      "manaVortex3": "@hero@已经拥有足够的魔法值，无法使用魔力漩涡。 ",
+      "manaVortexDesc": "魔力漩涡每周使一位英雄暂时拥有双倍的魔法值。"
+    },
+    "map": {
+      "battle1": "普通战斗模式",
+      "battle2": "快速战斗模式",
+      "battle3": "快速战斗模式 (不使用魔法)",
+      "battle4": "战前选择模式",
+      "battlelist1": "快速战斗选项",
+      "battlelist2": "{~>m_manualF.def}  普通战斗",
+      "battlelist3": "{~>m_automf.def}  快速战斗",
+      "battlelist4": "{~>m_autowm.def}  快速战斗 (不使用魔法)",
+      "battlesave": "BATTLE!",
+      "button1hint": "普通战斗模式",
+      "button2hint": "快速战斗模式",
+      "button3hint": "快速战斗模式 (不使用魔法)",
+      "button4hint": "战前选择模式",
+      "button5click": "{噢，这是一个新的按钮...}\n\n不过你没有启用{WoG脚本}mod...",
+      "button5hint": "脚本提示信息设置",
+      "button6click": "{噢，这是一个新的按钮...}\n\n不过你没有启用{秘银显示}选项。",
+      "button6hint": "秘银显示",
+      "button7hint": "战斗模式指示器",
+      "herokill": "你真的要{解雇}{@hero_name@}吗？",
+      "herotake": "哈哈，你想得美 :P",
+      "keymastersTent0": "(首领营帐未访问)",
+      "keymastersTent1": "(首领营帐已访问)",
+      "mp_left": "(移动点数: ",
+      "route_1": "@hero_name@无法到达这里",
+      "route_2": "@hero_name@到这里需要移动点数: {@path_lenght@}  (本回合内无法到达)",
+      "route_2rmb": "@hero_name@到这里需要移动点数: {@path_lenght@} \n\n本回合内无法到达",
+      "route_3": "@hero_name@到这里需要移动点数: {@path_lenght@}  (剩余: {@hero_movepoints@})",
+      "route_3rmb": "@hero_name@到这里需要移动点数: {@path_lenght@} \n\n剩余: {@hero_movepoints@}",
+      "time1": "{时间:}",
+      "time2": "{电量:}",
+      "wip": "帮助"
+    },
+    "period": "。",
+    "settings": {
+      "foolDay": "又是一年一度的节日...打算找点刺激吗？",
+      "hint0": "欢迎使用GEM设置",
+      "hint1": "更精细的全体等待/防御模式",
+      "hint2": "小地图左边的按钮",
+      "hint3": "在战场上右击{己方}英雄可查看英雄界面",
+      "hint4": "在战场上右击{敌方}英雄可查看英雄界面",
+      "hint5": "研究并替换魔法行会的魔法",
+      "hint6": "按Alt键显示物体信息",
+      "hint7": "全体等待/防御不影响战争机器",
+      "hint8": "NOT_USED",
+      "hint9": "NOT_USED",
+      "line0": "{~>RESOURCE.def:5} 欢迎使用GEM设置 {~>RESOURCE.def:5}\n\n在选项上右击可查看详细信息",
+      "line1": "更精细的全体等待/防御模式",
+      "line2": "新界面按钮",
+      "line3": "战场己方英雄界面",
+      "line4": "战场敌方英雄界面",
+      "line5": "城镇魔法研究",
+      "line6": "按Alt键显示物体信息",
+      "line7": "全体等待/防御不影响战争机器",
+      "line8": "NOT_USED",
+      "line9": "NOT_USED",
+      "opt+": "\n\n在多人游戏中无法使用！！！",
+      "opt1": "{更精细的全体等待/防御模式}\n\n[作者：daemon_n] (gem_settings)\n\n这个选项启用后，在按下{ALT}{+}{W}或者{ALT}{+}{D/空格}进行全队等待或防御时，会在下一个敌方单位行动后恢复控制，而不会等到下一个回合。",
+      "opt1+": "\n\n注意！\n在“BattleSave”插件启用时，战前存档会由插件执行，并且这个选项会被自动禁用。",
+      "opt2": "{~>m_manualF.def} {~>m_automf.def} {新界面按钮} {~>m_autowm.def} {~>m_choiceB.def}\n\n[作者：daemon_n, totkotoriy]\n\n小地图左边的按钮\n\n键盘上的“W”键也可以用于切换不同的战斗模式。",
+      "opt3": "{战场己方英雄界面}\n\n[作者：igrik] (脚本79 - wog)\n\n在战斗中可以查看{己方}的英雄界面。\n右击己方英雄战场形象可激活这个功能。",
+      "opt4": "{战场敌方英雄界面}\n\n[作者：igrik] (脚本79 - wog)\n\n在战斗中可以查看{敌方}的英雄界面。\n右击敌方英雄战场形象可激活这个功能。",
+      "opt5": "{城镇魔法研究}\n\n[作者：daemon_n] (gem_spell_research)\n\n允许你在城镇的魔法行会进行魔法研究\n\n更改选项后必须重启地图才会生效。",
+      "opt6": "{按Alt键显示物体信息}\n\n[作者：daemon_n] (插件 - GameplayEnhancementsPlugin.era)\n\n在按下Alt键时显示物体信息。\n\n你可以在{游戏根目录\\Runtime\\gem_AdventureMapHints.ini}文件中更改物体的信息以及快捷键。",
+      "opt7": "{全体等待/防御不影响战争机器}\n\n[author: daemon_n] (gem_settings.erm)\n\n启用这个选项可以让全体等待/防御的功能不影响战争机器的行动。",
+      "opt8": "NOT_USED",
+      "opt9": "NOT_USED",
+      "out": "{数值超过了允许范围！}\n\n指定一个1到254之间的数字\n\n(超过128条可禁用信息)",
+      "realy": "你确定吗？",
+      "value": "指定一个1到254之间的数字\n\n(超过128条可禁用信息)"
+    },
+    "town": {
+      "emptyfield": "新功能菜单\n\n当前未加载包含新功能的mod",
+      "hintText": "新功能菜单",
+      "menurmb": "新功能菜单"
+    },
+    "wog": {
+      "checkMithril": "\n\n(点击[小地图左边的第5个按钮]，可禁用提示)",
+      "disableMsg": "\n\n(点击[小地图左边的第5个按钮]，可禁用提示)"
     }
+  }
 }
